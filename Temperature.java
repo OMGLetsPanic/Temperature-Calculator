@@ -10,16 +10,19 @@ public class Temperature {
         fTemp = sc.nextDouble(); // instructs Scanner object to read the user's input as a double
     }
 
-    double toCelsius() { // method to calculate user's Fahrenheit temperature to celsius
-        double cTemp = ((fTemp + 459.67) * 5)/9; // F to C formula
-        return cTemp;
+    double toKelvin() { // method to calculate user's Fahrenheit temperature to Kelvin
+        double kTemp = ((fTemp + 459.67) * 5)/9; // F to K formula
+        return kTemp;
     }
 
-    double toKelvin() { // method to calculate user's Fahrenheit temperature to Kelvin
-        double kTemp = ((fTemp - 32) * 5)/9; // F to K formula
-        return kTemp;
+    double toCelsius() { // method to calculate user's Fahrenheit temperature to Celsius
+        double cTemp = ((fTemp - 32) * 5)/9; // F to C formula
+        return cTemp;
 
     }
 }
+
+
+
 
 
