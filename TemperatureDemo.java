@@ -10,7 +10,7 @@ public class TemperatureDemo { // created second class for main method
 
         // prints final calculations in Print statements
         System.out.printf("Celsius temperature: %.2f", + tCTemp);
-        System.out.printf("\n Kelvin temperature: %.2f", + tKTemp);
+        System.out.printf("\nKelvin temperature: %.2f", + tKTemp);
 
     }
 }
